@@ -1,8 +1,10 @@
 ***💎💎💎서로 다른 JDK를 사용하는 IDE를 옮겨 다닐 때 bat파일을 만들어서 쉽게 적용 하는 방법💎💎💎***
 
-#윈도우기준.
-*-jdk17 active*
-*@echo off*
+#윈도우기준
+
+**강조**
+jdk17 active
+@echo off*
 set JAVA_HOME=C:\Program Files\Java\jdk-17
 set PATH=%JAVA_HOME%\bin;%PATH%
 echo Switched to Java 17
