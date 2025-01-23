@@ -23,6 +23,13 @@ start "" "C:\Program Files\SpringToolSuite4\STS.exe"
 exit
 ```
 
+**DATA**
+ - getter
+ - setter
+ - tostring
+ - instructor
+ - -????
+
 
 **lombok**
 #코드다이어터
@@ -47,7 +54,9 @@ exit
 - 인텔리제이는.. JDK17을 인식하지만 문제는 MAVEN(내장)이  윈도우 환경변수 설정에 JDK11을 계속 지정하는 문제 발생.
 - 허나 STS를 사용할 때 JDK11을 지정해야 하기 때문에 환경 변수 값은 건들지 않고 있음.
 - IntelliJ설정과 MAVEN설정으로 주도 함.
+- 추가로 레벨로그가 초과하면 로그가 안 뜨는데 그문제는 다른 방식으로 또 해결해야 함.
 
+```java
 <!-- SLF4J API (필수) -->
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -61,7 +70,7 @@ exit
       <artifactId>slf4j-simple</artifactId>
       <version>2.0.13</version>
     </dependency>
-
+```
 
 
 
