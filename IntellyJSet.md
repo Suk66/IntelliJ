@@ -3,6 +3,8 @@
 #윈도우기준
 
 **강조**
+
+```java
 jdk17 active
 @echo off*
 set JAVA_HOME=C:\Program Files\Java\jdk-17
@@ -11,6 +13,7 @@ echo Switched to Java 17
 echo JAVA_HOME: %JAVA_HOME%
 start "" "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2\bin\idea64.exe"
 exit
+```
 
 ```cmd
 -jdk11 active
