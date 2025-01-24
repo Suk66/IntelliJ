@@ -32,3 +32,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 </beans>
 ```
+
+
+**groovy**
+#그루비 추가.
+      ```java
+      <dependency>      
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>2.4.21</version>
+    </dependency>
+
